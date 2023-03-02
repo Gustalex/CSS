@@ -1,0 +1,44 @@
+/* a tag p e responsavel por determinar paragrafo*/
+h1{
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+
+p{
+    font-family: Arial;
+    font-size: 12pt;
+    text-indent: 30pt;
+    text-align: justify;
+}
+.inferior{
+    text-decoration: underline;
+}
+.superior{
+text-decoration: overline;
+}
+.centro{
+text-decoration: line-through;
+}
+.pisca{
+    text-decoration: blink;
+}
+
+
+
+
+/*
+pt e em sao unidades de medida 
+
+Alem de justify temos mais opcoes de text-align:
+-left
+-right
+-center
+
+No tocante a unidades de tamanho temos as unidades relativas e absolutas.
+As unidades relativas = %, em, ex, px se adaptam ao tamanho da pagina caso ela sofra mudanca.
+As unidades absolutas = in, cm, mm, pt, pc, se mantem as mesmas independentemente do tamanho da pagina.
+
+a funcao text-indent determina o recuo do paragrafo
+*/

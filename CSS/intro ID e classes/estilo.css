@@ -1,0 +1,13 @@
+body{
+   font-weight: bold;
+}
+
+#id1{
+    font-size: 24px;
+    color: black;
+}
+
+.class{
+    font-size: 10px;
+}
+
